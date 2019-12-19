@@ -5,7 +5,7 @@ type FirebaseUserPerfil struct {
 	FederatedId   string     `json:"federatedId"`
 	ProviderId    string     `json:"providerId"`
 	LocalId       string     `json:"localId"`
-	EmailVerified string     `json:"emailVerified"`
+	EmailVerified bool     `json:"emailVerified"`
 	Email         string     `json:"email"`
 	OauthIdToken  string     `json:"oauthIdToken"`
 	FirstName     string     `json:"firstName"`
