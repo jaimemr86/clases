@@ -15,7 +15,7 @@ type FirebaseUserPerfil struct {
 	IdToken        string     `json:"IdToken"`
 	PhotoUrl      string     `json:"photoUrl"`
 	RefreshToken  string     `json:"refreshToken"`
-	OauthExpireIn string     `json:"oauthExpireIn"`
+	OauthExpireIn int32     `json:"oauthExpireIn"`
 	ExpiresIn     string     `json:"expiresIn"`
 	RawUserInfo   string     `json:"rawUserInfo"`
 	Errores       ClsErrores `json:"Errores"`
